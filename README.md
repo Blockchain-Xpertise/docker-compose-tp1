@@ -80,7 +80,7 @@ In order to bypass this issue, you need to initialize them before stting up the 
 
 ```bash
 docker rm $(docker ps -aq) && docker-compose down
-cd api
+cd server
 npm install
 cd ../client/src/
 npm install
